@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <title>NeuroRest - Deep Sleep Enhancement Guide</title>
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="Educational guide about deep sleep optimization and restorative rest strategies">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dailybodyandmind.site/neurorest">
+    <meta property="og:image" content="images/2-Photoroom.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2" crossorigin="">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2" crossorigin="">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXo.woff2" crossorigin="">
+    
+    <style type="text/css" media="all">
+        /* CSS Base - Minificado mantido conforme original */
+        :root {
+            --white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body, html {
+            font-family: Roboto, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            background: #fff;
+            width: 100%;
+        }
+        
+        .hero-image-container {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .hero-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .content-container {
+            background: #fff;
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .content-container h1 {
+            font-family: Poppins, sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #000;
+        }
+        
+        .content-container h1.subtitle {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 40px;
+        }
+        
+        .content-container h2 {
+            font-family: Poppins, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 30px 0 15px;
+            color: #000;
+        }
+        
+        .content-container h3 {
+            font-family: Poppins, sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 25px 0 12px;
+            color: #000;
+        }
+        
+        .content-container p {
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 18px;
+            color: #333;
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            max-width: 100%;
+            margin: 50px auto 40px; /* Aumentado margem inferior */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* --- INÍCIO DA CORREÇÃO DO SELO (CSS) --- */
+        .product-wrapper {
+            position: relative; /* Define o ponto de referência para o selo absoluto */
+            display: inline-block; /* O container se ajusta ao tamanho da imagem */
+            max-width: 100%;
+        }
+        
+        /* Ajuste para garantir que a imagem principal se comporte bem dentro do wrapper */
+        .image-placeholder img.main-product {
+            max-width: 100%;
+            width: 700px; /* Mantém o tamanho original desejado */
+            height: auto;
+            display: block;
+        }
+
+        /* AJUSTE PARA DESKTOP */
+        .seal-badge {
+            position: absolute;
+            bottom: -10px; /* Posiciona no canto inferior, ligeiramente para fora */
+            right: -10px;  /* Posiciona no canto direito, ligeiramente para fora */
+            width: 110px;  /* Tamanho Desktop */
+            height: auto;
+            z-index: 10;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2)); /* Sombra para destaque */
+        }
+        /* --- FIM DA CORREÇÃO DO SELO --- */
+        
+        .digital-product-label {
+            text-align: center;
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .price-download-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .download-arrow {
+            font-size: 40px;
+            color: #4caf50;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .price-tag {
+            font-family: Poppins, sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #ff5722;
+        }
+        
+        .subscription-checkbox-container {
+            max-width: 500px;
+            margin: 0 auto 20px;
+            padding: 20px;
+            background: #fff3e0;
+            border: 2px solid #ff9800;
+            border-radius: 10px;
+        }
+        
+        .checkbox-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            cursor: pointer;
+        }
+        
+        .checkbox-wrapper input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            min-width: 22px;
+            cursor: pointer;
+            margin-top: 2px;
+        }
+        
+        .checkbox-wrapper label {
+            font-family: Roboto, sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: #333;
+            cursor: pointer;
+            line-height: 1.5;
+        }
+        
+        .cancel-anytime {
+            text-align: center;
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            color: #4caf50;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .checkout-button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 50px;
+            padding: 20px 40px;
+            background: linear-gradient(135deg, #ff5722 0, #ff7043 100%);
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-family: Poppins, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all .3s ease;
+            box-shadow: 0 4px 15px rgba(255, 87, 34, .4);
+        }
+        
+        .checkout-button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+            box-shadow: none;
+            opacity: 0.6;
+        }
+        
+        .checkout-button:hover:not(:disabled) {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 87, 34, .6);
+            background: linear-gradient(135deg, #ff7043 0, #ff5722 100%);
+        }
+        
+        .checkout-button:active:not(:disabled) {
+            transform: translateY(-1px);
+        }
+        
+        .recurring-notice {
+            text-align: center;
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 50px;
+            font-weight: 500;
+            display: block;
+        }
+        
+        .footer-section {
+            background: #fff;
+            width: 100%;
+        }
+        
+        .no-thanks-button {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto 30px;
+            padding: 15px 20px;
+            background: #2c1654;
+            color: #ffeb3b;
+            text-align: center;
+            text-decoration: underline;
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            border: none;
+            cursor: pointer;
+            transition: all .3s ease;
+        }
+        
+        .no-thanks-button:hover {
+            background: #3d1f73;
+            color: #fff59d;
+        }
+        
+        .footer-links {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .footer-links a {
+            color: #000;
+            text-decoration: none;
+            font-family: Georgia, sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        
+        .disclaimer-section {
+            background: #fff;
+            padding: 40px 20px 60px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .disclaimer-section h1 {
+            font-family: Georgia, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            margin: 0 0 30px 0;
+            color: #000;
+        }
+        
+        .disclaimer-section p {
+            font-family: Georgia, sans-serif;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: justify;
+        }
+        
+        .disclaimer-section p strong {
+            font-weight: 700;
+            color: #000;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .hero-image-container img {
+                max-height: 300px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .hero-image-container img {
+                max-height: 200px;
+            }
+            
+            .content-container {
+                padding: 30px 15px;
+            }
+            
+            .content-container h1 {
+                font-size: 28px;
+            }
+            
+            .content-container h1.subtitle {
+                font-size: 22px;
+            }
+            
+            .content-container h2 {
+                font-size: 18px;
+            }
+            
+            .content-container h3 {
+                font-size: 16px;
+            }
+            
+            .content-container p {
+                font-size: 15px;
+            }
+            
+            .image-placeholder {
+                max-width: 100%;
+                margin: 30px auto 30px; /* Ajuste de margem mobile */
+            }
+            
+            /* Ajuste do tamanho e posição do selo no Mobile */
+            .seal-badge {
+                width: 80px;
+                bottom: -5px;
+                right: -5px;
+            }
+            
+            .price-tag {
+                font-size: 36px;
+            }
+            
+            .subscription-checkbox-container {
+                padding: 15px;
+            }
+            
+            .checkbox-wrapper label {
+                font-size: 14px;
+            }
+            
+            .cancel-anytime {
+                font-size: 14px;
+            }
+            
+            .checkout-button {
+                font-size: 20px;
+                padding: 18px 30px;
+            }
+            
+            .no-thanks-button {
+                font-size: 14px;
+                padding: 12px 15px;
+            }
+            
+            .disclaimer-section {
+                padding: 30px 15px 40px;
+            }
+            
+            .disclaimer-section p {
+                font-size: 13px;
+            }
+        }
+    </style>
+    
+    <style>
+        .a-b-cont {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body data-page="_kvU2NMZkDbW3SIxFFjV0" data-version="4.0" data-page-type="page" data-variant="fhhzg4u4r5h">
+    <div class="a-b-cont">
+        <div class="a-u-3 a-b-o-cont atomicat-container-252a301 a-s-d-enq4iy" data-hex="cO1LLZaV2">
+            <div class="a-s-d-ueqavs a-cont-b a-o-cont">
+                <div class="a-s-d-nghw0s a-i-cont a-cont">
+                    <div class="a-c-cont-60dcfdf a-c-cont a-s-d-72i7ug a-r">
+                        <div class="a-e-cont atomicat-html a-u-1 atomicat-element-container-60dcfdf a-r a-html a-html-60dcfdf a-s-d-40bx3r" data-hex="R16cjvJpsN">
+                            <div class="a-i-e-cont">
+                                <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer="defer"></script>
+                                <script src="https://www.digistore24-scripts.com/service/digistore.js"></script>
+                                <script>digistoreUpsell()</script>
+                                
+                                <!-- Begin of Digistore24 Trusted Badge Code -->
+                                <script type="text/javascript" src="https://www.digistore24.com/trusted-badge/43982/uYkBu6TOmaVyukO/salespage"></script>
+                                <!-- End of Digistore24 Trusted Badge Code -->
+                                
+                                <div class="hero-image-container">
+                                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&h=400&fit=crop&q=80" alt="Peaceful night sky with stars">
+                                </div>
+                                
+                                <div class="content-container">
+                                    <h1>COMPLETE YOUR MENTAL CLARITY JOURNEY</h1>
+                                    <h1 class="subtitle">Educational guide about restorative sleep optimization and long-term cognitive wellness maintenance strategies.</h1>
+                                    
+                                    <p>Mental clarity isn't a one-time fix—it's a lifelong commitment, just like regular exercise or healthy eating habits.</p>
+                                    <p>The NeuroRest Protocol guide provides educational information about deep sleep optimization and practical strategies for maintaining long-term cognitive wellness through restorative rest.</p>
+                                    <p>This comprehensive digital app explores sleep architecture, circadian rhythm optimization, and lifestyle adjustments based on sleep science research.</p>
+                                    
+                                    <h2>What this educational guide covers:</h2>
+                                    
+                                    <p><strong>Understanding Deep Sleep and Brain Restoration</strong></p>
+                                    <p>Educational information about REM and deep sleep stages—how the brain clears metabolic waste, consolidates memories, and repairs neural pathways during quality rest. The goal is understanding sleep's critical role in cognitive health and mental clarity.</p>
+                                    
+                                    <p><strong>Where Sleep Disruptors May Be Found</strong></p>
+                                    <p>Information about common factors that interfere with restorative sleep: blue light exposure from screens, irregular sleep schedules, caffeine and alcohol timing, bedroom temperature and darkness, noise pollution, and stress hormones. Awareness plus practical reduction equals better sleep quality.</p>
+                                    
+                                    <p><strong>Simple Swaps for Better Sleep Hygiene</strong></p>
+                                    <p>Bedroom optimization: blackout curtains or eye masks, cooler room temperature (60-67°F), white noise machines, comfortable bedding. Evening routine tips: blue light blocking glasses, caffeine cutoff times, alcohol moderation, stress reduction practices. Technology habits: device-free bedroom, night mode settings, limiting screen time before bed.</p>
+                                    
+                                    <p><strong>Navigating Modern Sleep Challenges</strong></p>
+                                    <p>Work schedule guidance (managing shift work, jet lag recovery), screen time strategies (2-hour wind-down rule, reading vs scrolling), and stress management (4-7-8 breathing technique, progressive muscle relaxation, journaling before bed).</p>
+                                    
+                                    <p><strong>Optimizing Your Sleep Environment</strong></p>
+                                    <p>Educational content about why bedroom conditions matter—complete darkness signals melatonin production, cooler temperatures facilitate deep sleep, quiet environments prevent sleep fragmentation, plus information on air quality, mattress selection, and pillow positioning for optimal rest.</p>
+                                    
+                                    <p><strong>Better Circadian Rhythm Alignment</strong></p>
+                                    <p>Strategies including morning sunlight exposure (10-15 minutes within 1 hour of waking), consistent sleep-wake times (even on weekends), strategic napping (20 minutes max before 3 PM), meal timing effects, and exercise scheduling for circadian optimization.</p>
+                                    
+                                    <p><strong>Supporting Natural Sleep-Wake Systems</strong></p>
+                                    <p>Educational information about how melatonin production, adenosine accumulation, cortisol rhythm, and body temperature regulation naturally work to promote sleep-wake cycles, plus strategies to support these built-in systems through light exposure, temperature control, routine consistency, and stress management.</p>
+                                    
+                                    <h2>Four key takeaways from this guide:</h2>
+                                    
+                                    <p><strong>01 - Sleep is Brain Maintenance:</strong> Quality rest is essential for long-term cognitive health, not a luxury</p>
+                                    <p><strong>02 - Consistency Trumps Perfection:</strong> Regular sleep-wake schedules matter more than occasional perfect nights</p>
+                                    <p><strong>03 - Environment Matters:</strong> Darkness, temperature, quiet, and comfort dramatically affect sleep quality</p>
+                                    <p><strong>04 - Small Changes, Big Impact:</strong> Simple adjustments in light exposure, temperature, and routine create lasting improvements</p>
+                                    
+                                    <h2>Important information about this guide:</h2>
+                                    
+                                    <p><strong>This is purely educational material.</strong> The guide provides information about sleep optimization and restorative rest strategies documented in sleep science literature.</p>
+                                    <p>It does not diagnose, treat, cure, or prevent any sleep disorder or medical condition.</p>
+                                    <p>If you have sleep disorders (insomnia, sleep apnea, restless leg syndrome, etc.), medical conditions, take medications, are pregnant or nursing, consult healthcare professionals before implementing any new practices.</p>
+                                    <p>Individual sleep needs vary significantly. This guide presents information to help you understand sleep science—not to replace medical care for sleep problems.</p>
+                                    
+                                    <h2>What's included:</h2>
+                                    
+                                    <p>• Comprehensive overview of sleep stages and brain restoration</p>
+                                    <p>• Practical sleep environment optimization strategies</p>
+                                    <p>• Circadian rhythm alignment guidance</p>
+                                    <p>• Evening routine and wind-down protocols</p>
+                                    <p>• Light exposure and temperature management tips</p>
+                                    <p>• Information about natural sleep-wake systems support</p>
+                                    <p>• Reference guides and sleep hygiene checklists</p>
+                                    
+                                    <p><strong>Investment: $19 (one-time)</strong></p>
+                                    <p>60-day satisfaction guarantee: If the educational content doesn't meet your expectations, contact us within 60 days for a full refund.</p>
+                                    
+                                    <h2>Who might find this useful:</h2>
+                                    
+                                    <p>• Adults interested in learning about sleep science and brain health</p>
+                                    <p>• People seeking to understand sleep quality optimization</p>
+                                    <p>• Those wanting evidence-based information about restorative rest</p>
+                                    <p>• Anyone looking to learn about long-term cognitive wellness maintenance</p>
+                                    
+                                    <p>Click below to add this educational guide to your order.</p>
+                                    
+                                    <div class="image-placeholder">
+                                        <div class="product-wrapper">
+                                            <img src="images/Neurosrest LIVRO.png" alt="NeuroRest Protocol Deep Sleep Guide" class="main-product">
+                                            <img src="images/selo.png" alt="Selo de Garantia" class="seal-badge">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="digital-product-label">Digital App</div>
+                                    
+                                    <div class="price-download-container">
+                                        <div class="download-arrow">⬇</div>
+                                        <div class="price-tag">$19</div>
+                                    </div>
+                                    
+                                    <div class="subscription-checkbox-container">
+                                        <div class="checkbox-wrapper">
+                                            <input type="checkbox" id="subscription-confirm" name="subscription-confirm">
+                                            <label for="subscription-confirm">
+                                                I understand and agree that after this payment, there will be a recurring charge of $29/month for continued access to this educational guide and updates.
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cancel-anytime">✓ Cancel at anytime</div>
+                                    
+                                    <a href="#" class="checkout-button" id="checkout-btn" onclick="return false;">ADD TO MY ORDER</a>
+                                    
+                                </div>
+                                
+                                <div class="footer-section">
+                                    <a href="https://www.digistore24.com/answer/no" class="no-thanks-button">No thanks. I'm not interested in this educational guide.</a>
+                                    
+                                    <div class="footer-links">
+                                        <a href="https://www.dailybodyandmind.site/terms-nhb" target="_blank" rel="noopener noreferrer"><strong>| Terms |</strong></a>
+                                        <a href="https://www.dailybodyandmind.site/privacy-nhb" target="_blank" rel="noopener noreferrer"><strong>Privacy |</strong></a>
+                                    </div>
+                                    
+                                    <div class="disclaimer-section">
+                                        <h1>DISCLAIMER</h1>
+                                        
+                                        <p><strong>EDUCATIONAL PRODUCT NOTICE:</strong> NeuroRest Protocol is an educational resource providing information about sleep optimization and restorative rest strategies. This guide is NOT intended to diagnose, treat, cure, or prevent any sleep disorder or medical condition.</p>
+                                        
+                                        <p><strong>MEDICAL DISCLAIMER:</strong> If you have sleep disorders (insomnia, sleep apnea, narcolepsy, restless leg syndrome, etc.), medical conditions, neurological conditions, take medications, are pregnant, nursing, or under medical supervision, consult qualified healthcare professionals before implementing any practices discussed in this guide. Sleep disorders require proper medical evaluation and treatment.</p>
+                                        
+                                        <p><strong>CONTENT BASIS:</strong> Information in this guide is based on sleep science research and scientific literature. It is presented for educational purposes only. Individual sleep needs and responses vary significantly, and no specific sleep outcomes are guaranteed or implied.</p>
+                                        
+                                        <p><strong>NOT MEDICAL DIAGNOSIS OR TREATMENT:</strong> This guide provides general educational information only. It does not replace professional sleep studies, medical diagnosis, or treatment of sleep disorders. If you suspect sleep problems, consult qualified sleep medicine specialists and medical providers.</p>
+                                        
+                                        <p><strong>PRODUCT RECOMMENDATIONS:</strong> Any information about sleep products, supplements, or consumer goods is strictly educational. Product suggestions represent examples of available options, not endorsements or guarantees of effectiveness. Always research products independently and consult professionals for specific recommendations.</p>
+                                        
+                                        <p><strong>NOT A SUBSTITUTE FOR PROFESSIONAL CARE:</strong> This guide is designed to educate about sleep hygiene and optimization. It does not replace professional sleep assessment, medical evaluation, or treatment of sleep disorders. Sleep problems can have serious health consequences and should be evaluated by qualified professionals.</p>
+                                        
+                                        <p>All trademarks and copyrights are the property of their respective owners and are not affiliated with or endorse this product.</p>
+                                        
+                                        <p>These statements have not been evaluated by the Food and Drug Administration (FDA). This educational guide and the sleep strategies it discusses are not intended to diagnose, treat, cure, or prevent any disease or sleep disorder. Individual experiences with sleep optimization vary. By using this site, you agree to follow the Privacy Policy and all Terms and Conditions printed on this site.</p>
+                                        
+                                        <p><strong>This is an advertisement and not an actual news article, blog, or consumer protection update.</strong></p>
+                                        
+                                        <p><strong>IMPORTANT NOTICE:</strong> This educational product is intended for adults only (18+). The information is for educational purposes and should not be considered medical advice. Always consult qualified healthcare professionals before implementing sleep changes or using supplements, especially if you are pregnant, nursing, have medical conditions, or take prescription medications.</p>
+                                        
+                                        <p><strong>NO HEALTH CLAIMS:</strong> We make no claims that this guide or the practices it discusses will improve, treat, or cure any sleep condition or cognitive disorder. This is educational information only. Individual results vary and no specific outcomes are guaranteed.</p>
+                                        
+                                        <p><strong>MARKETING DISCLOSURE:</strong> This website is a marketplace. The owner has a monetary connection with the product advertised on this site. The owner receives payment when a qualified lead is referred.</p>
+                                        
+                                        <p><strong>ADVERTISING DISCLOSURE:</strong> This website and the referenced products are advertisements. This is not a news publication. Photos of individuals are models. This is an educational product about sleep optimization and cognitive wellness maintenance through restorative rest, not medical treatment for sleep disorders.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        // Checkbox functionality to enable/disable button
+        const checkbox = document.getElementById('subscription-confirm');
+        const checkoutBtn = document.getElementById('checkout-btn');
+        
+        // Initially disable the button
+        checkoutBtn.disabled = true;
+        checkoutBtn.style.pointerEvents = 'none';
+        
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                checkoutBtn.disabled = false;
+                checkoutBtn.style.pointerEvents = 'auto';
+                // You would add your actual checkout URL here
+                checkoutBtn.onclick = function() {
+                    // Replace with your actual checkout link
+                    window.location.href = 'https://www.digistore24.com/answer/yes?template=light&product=668032';
+                    return false;
+                };
+            } else {
+                checkoutBtn.disabled = true;
+                checkoutBtn.style.pointerEvents = 'none';
+                checkoutBtn.onclick = function() { return false; };
+            }
+        });
+    </script>
+    
+    <script type="text/javascript" defer="defer">
+        document.body.appendChild(Object.assign(document.createElement("script"), {
+            src: "https://cdn.atomicatpages.net/cdn/atomicpixel.js?cache=" + Date.now(),
+            async: true,
+            defer: true
+        }));
+    </script>
+    
+    <script type="text/javascript" defer="defer">
+        document.body.appendChild(Object.assign(document.createElement("script"), {
+            src: "https://cdn.atomicatpages.net/cdn/a.js?cache=" + Date.now(),
+            async: true,
+            defer: true
+        }));
+    </script>
+    
+    <script src="js/QgobBI3908197.js" charset="utf-8" id="a-js" defer="defer"></script>
+</body>
+</html>
