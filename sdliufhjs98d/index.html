@@ -534,27 +534,5 @@
         </div>
     </div>
     
-    <script type="text/javascript">
-        // Checkbox functionality to enable/disable button
-        const checkbox = document.getElementById('subscription-confirm');
-        const checkoutBtn = document.getElementById('checkout-btn');
-        
-        // Initially disable the button
-        checkoutBtn.style.pointerEvents = 'none';
-        checkoutBtn.style.opacity = '0.6';
-        checkoutBtn.style.cursor = 'not-allowed';
-        
-        checkbox.addEventListener('change', function() {
-            if (this.checked) {
-                checkoutBtn.style.pointerEvents = 'auto';
-                checkoutBtn.style.opacity = '1';
-                checkoutBtn.style.cursor = 'pointer';
-            } else {
-                checkoutBtn.style.pointerEvents = 'none';
-                checkoutBtn.style.opacity = '0.6';
-                checkoutBtn.style.cursor = 'not-allowed';
-            }
-        });
-    </script>
 </body>
 </html>
