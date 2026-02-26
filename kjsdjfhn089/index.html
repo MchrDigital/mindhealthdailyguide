@@ -553,31 +553,6 @@
         </div>
     </div>
     
-    <script type="text/javascript">
-        // Checkbox functionality to enable/disable button
-        const checkbox = document.getElementById('subscription-confirm');
-        const checkoutBtn = document.getElementById('checkout-btn');
-        
-        // Initially disable the button
-        checkoutBtn.disabled = true;
-        checkoutBtn.style.pointerEvents = 'none';
-        
-        checkbox.addEventListener('change', function() {
-            if (this.checked) {
-                checkoutBtn.disabled = false;
-                checkoutBtn.style.pointerEvents = 'auto';
-                checkoutBtn.onclick = function() {
-                    window.location.href = 'https://www.digistore24.com/answer/yes?template=light&product=668029';
-                    return false;
-                };
-            } else {
-                checkoutBtn.disabled = true;
-                checkoutBtn.style.pointerEvents = 'none';
-                checkoutBtn.onclick = function() { return false; };
-            }
-        });
-    </script>
-    
     <script type="text/javascript" defer="defer">
         document.body.appendChild(Object.assign(document.createElement("script"), {
             src: "https://cdn.atomicatpages.net/cdn/atomicpixel.js?cache=" + Date.now(),
