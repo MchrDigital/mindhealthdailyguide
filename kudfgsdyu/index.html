@@ -1377,65 +1377,6 @@ h6 {
               mask-size: 20px 100%;
   
           }
-      <style>
-/* === OVERRIDES PERSONALIZADOS === */
-
-/* 1) Substitui o verde-azulado pelo degradê #3533CD → #000000 */
-
-/* Header topo + cards desktop (Basic header, Best Value body, Most Popular header) */
-.a-b-cont-0drfc .atomicat-container-bba572f.a-b-o-cont-yl55x,
-.a-b-cont-0drfc .atomicat-container-feb8c84.a-b-o-cont-yl55x,
-.a-b-cont-0drfc .atomicat-container-2c509f9.a-b-o-cont-yl55x,
-.a-b-cont-0drfc .atomicat-container-ad9357b.a-b-o-cont-yl55x {
-    background: linear-gradient(180deg, #3533CD 0%, #000000 100%) !important;
-}
-
-/* Best Value body no mobile/tablet (era verde-azulado em <=1024px) */
-@media screen and (max-width: 1024px) {
-    .a-b-cont-0drfc .atomicat-container-e70f2a5.a-b-o-cont-yl55x {
-        background: linear-gradient(180deg, #3533CD 0%, #000000 100%) !important;
-    }
-}
-
-/* 2) Reordenação dos cards */
-
-/* Desktop (>1024px): 2 Bottles → 3 Bottles → 6 Bottles */
-@media screen and (min-width: 1025px) {
-    .a-b-cont-0drfc .atomicat-container-2e21e00.a-b-o-cont-yl55x { order: 1 !important; } /* 2B */
-    .a-b-cont-0drfc .atomicat-container-c3f74e5.a-b-o-cont-yl55x { order: 2 !important; } /* 3B */
-    .a-b-cont-0drfc .atomicat-container-4356198.a-b-o-cont-yl55x { order: 3 !important; } /* 6B */
-}
-
-/* Mobile/Tablet (<=1024px): 3 Bottles → 6 Bottles → 2 Bottles */
-@media screen and (max-width: 1024px) {
-    .a-b-cont-0drfc .atomicat-container-e1307ac.a-b-o-cont-yl55x { order: 1 !important; } /* 3B */
-    .a-b-cont-0drfc .atomicat-container-bd3c73d.a-b-o-cont-yl55x { order: 2 !important; } /* 6B */
-    .a-b-cont-0drfc .atomicat-container-5c49219.a-b-o-cont-yl55x { order: 3 !important; } /* 2B */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .atomicat-delay {
       display: none;
