@@ -17,7 +17,7 @@ var pixelParams = "&" + locSearch.substr(1) + "&sub19=" + rtkfbp + "&sub20=" + r
 if (campaignID == "") {
     campaignID = urlParams.get('rtkcmpid')
 }
-var initialSrc = "https://trck.blogneonature.com/" + campaignID + "?format=json";
+var initialSrc = "https://rt.yourhealthydailyguide.com/preclick" + campaignID + "?format=json";
 
 function stripTrailingSlash(str) {
     return str.replace(/\/$/, "");
@@ -31,7 +31,7 @@ function fixHrefWithClick(
     _rtkClickID
 ) {
     document.querySelectorAll('a').forEach(function (el) {
-        if (el.href.indexOf("trck.blogneonature.com/click") > -1) {
+        if (el.href.indexOf("https://rt.yourhealthydailyguide.com/preclick") > -1) {
             if (el.href.indexOf('?') > -1) {
                 el.href = stripTrailingSlash(el.href) + "&clickid=" + (_rtkClickID || _rawData.clickid) + "&rtkck=" + _cachebuster
             } else {
@@ -54,7 +54,7 @@ setTimeout(function () {
                 setCookie();
                 // fixHrefWithClick(rawData, cachebuster)
                 document.querySelectorAll('a').forEach(function (el) {
-                    if (el.href.indexOf("trck.blogneonature.com/click") > -1) {
+                    if (el.href.indexOf("https://rt.yourhealthydailyguide.com/preclick") > -1) {
                         if (el.href.indexOf('?') > -1) {
                             el.href = stripTrailingSlash(el.href) + "&clickid=" + rawData.clickid + "&rtkck=" + cachebuster
                         } else {
@@ -66,7 +66,7 @@ setTimeout(function () {
                     }
                 });
                 xhrr = new XMLHttpRequest;
-                xhrr.open("GET", "https://trck.blogneonature.com/view?clickid=" + rawData.clickid)
+                xhrr.open("GET", "https://rt.yourhealthydailyguide.com/view?clickid=" + rawData.clickid)
                 xhrr.send();
             }
         }
@@ -76,11 +76,11 @@ setTimeout(function () {
         rtkClickID = urlParams.get('rtkcid')
         setCookie();
         xhrTrack = new XMLHttpRequest;
-        xhrTrack.open("GET", "https://trck.blogneonature.com/view?clickid=" + rtkClickID)
+        xhrTrack.open("GET", "https://rt.yourhealthydailyguide.com/view?clickid=" + rtkClickID)
         xhrTrack.send();
         // fixHrefWithClick(rawData, cachebuster, rtkClickID)
         document.querySelectorAll('a').forEach(function (el) {
-            if (el.href.indexOf("trck.blogneonature.com/click") > -1) {
+            if (el.href.indexOf("https://rt.yourhealthydailyguide.com/preclick") > -1) {
                 if (el.href.indexOf('?') > -1) {
                     el.href = stripTrailingSlash(el.href) + "&clickid=" + rtkClickID + "&rtkck=" + cachebuster
                 } else {
