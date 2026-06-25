@@ -1,6 +1,6 @@
 :root {
-  --accent: #1498ff;
-  --accent-deep: #005fbb;
+  --accent: #ffdd00;
+  --accent-deep: #cc9900;
   --accent-dark: #03172e;
   --gold: #e5c747;
   --white: #ffffff;
@@ -25,7 +25,7 @@ body {
   color: var(--white);
   overflow-x: hidden;
   background:
-    radial-gradient(circle at 50% 16%, rgba(20, 152, 255, 0.12), transparent 20rem),
+    radial-gradient(circle at 50% 16%, rgba(255, 221, 0, 0.12), transparent 20rem),
     linear-gradient(90deg, rgba(12, 12, 12, 0.98), #000 24%, #000 76%, rgba(12, 12, 12, 0.98));
   font-family: "Inter", Arial, sans-serif;
 }
@@ -68,7 +68,7 @@ svg {
 .hero {
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid rgba(20, 152, 255, 0.78);
+  border-bottom: 1px solid rgba(255, 221, 0, 0.78);
 }
 
 .hero-inner {
@@ -95,8 +95,8 @@ h1,
   color: var(--white);
   border: 1px solid var(--accent);
   border-radius: 4px;
-  background: rgba(20, 152, 255, 0.18);
-  box-shadow: 0 0 22px rgba(20, 152, 255, 0.24);
+  background: rgba(255, 221, 0, 0.18);
+  box-shadow: 0 0 22px rgba(255, 221, 0, 0.24);
   font-size: 11px;
   line-height: 1;
   letter-spacing: 3.5px;
@@ -128,7 +128,7 @@ h1 strong {
   font-size: clamp(50px, 7.7vw, 78px);
   font-weight: 400;
   white-space: normal;
-  text-shadow: 0 0 24px rgba(20, 152, 255, 0.34);
+  text-shadow: 0 0 24px rgba(255, 221, 0, 0.34);
 }
 
 h1 strong em {
@@ -164,7 +164,7 @@ h1 strong em {
   border: 1px solid var(--accent);
   border-radius: 7px;
   background: #060606;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 0 34px rgba(20, 152, 255, 0.42);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 0 34px rgba(255, 221, 0, 0.42);
   line-height: 0;
   cursor: pointer;
 }
@@ -185,8 +185,8 @@ h1 strong em {
   place-items: center;
   color: var(--white);
   border-radius: 999px;
-  background: linear-gradient(180deg, var(--accent), var(--accent-deep));
-  box-shadow: 0 0 35px rgba(20, 152, 255, 0.58), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  background: linear-gradient(180deg, #ff0000, #cc0000);
+  box-shadow: 0 0 35px rgba(255, 0, 0, 0.58), inset 0 1px 0 rgba(255, 255, 255, 0.18);
   transform: translate(-50%, -50%);
   line-height: 1;
   pointer-events: none;
@@ -207,11 +207,11 @@ h1 strong em {
   min-height: 62px;
   margin: 30px auto 0;
   padding: 16px 24px;
-  color: var(--white);
+  color: var(--black);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 5px;
   background: linear-gradient(180deg, var(--accent), var(--accent-deep));
-  box-shadow: 0 18px 42px rgba(20, 152, 255, 0.27);
+  box-shadow: 0 18px 42px rgba(255, 221, 0, 0.27);
   font-size: clamp(20px, 4vw, 27px);
   line-height: 1;
   letter-spacing: 1px;
@@ -334,7 +334,7 @@ mark {
 .site-footer {
   padding: 24px 20px 36px;
   text-align: center;
-  border-top: 1px solid rgba(20, 152, 255, 0.5);
+  border-top: 1px solid rgba(255, 221, 0, 0.5);
   background: rgba(0, 0, 0, 0.74);
 }
 
