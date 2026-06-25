@@ -7,51 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-      /* ── OVERRIDE: azul #1498ff → amarelo #ffdd00 ── */
-      *:not(.play-button):not(.play-button *) {
-        --accent: #ffdd00;
-      }
-      /* Qualquer elemento que usava #1498ff como cor de texto, fundo ou borda */
-      [style*="#1498ff"] { color: #ffdd00!important; background-color: #ffdd00!important; border-color: #ffdd00!important; }
-
-      /* Targets comuns onde #1498ff aparece em stylesheets */
-      a,
-      .cta,
-      .cta-wide,
-      .callout,
-      mark,
-      .accent-center,
-      .eyebrow {
-        /* apenas sobrescreve se a cor vier do externo */
-        --brand-blue: #ffdd00;
-      }
-
-      /* Força amarelo em links e CTAs que costumam herdar azul */
-      .cta,
-      .cta-wide {
-        background-color: #ffdd00 !important;
-        border-color: #ffdd00 !important;
-        color: #000 !important;
-      }
-
-      /* Força amarelo em marcas de texto */
-      mark {
-        background-color: #ffdd00 !important;
-        color: #000 !important;
-      }
-
-      /* ── OVERRIDE: botão de play → vermelho #ff0000 ── */
-      .play-button {
-        background-color: #ff0000 !important;
-        border-color: #ff0000 !important;
-        color: #fff !important;
-      }
-      .play-button svg,
-      .play-button path {
-        fill: #fff !important;
-      }
-    </style>
     <script async="" src="https://www.clarity.ms/tag/x3szcya8ua"></script><script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
